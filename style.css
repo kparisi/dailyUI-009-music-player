@@ -1,0 +1,161 @@
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+body {
+    background-color: #7A52A4;
+    width: 100%;
+    height: 100vh;
+    color: #FFFFFF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-basis: 400px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: #FFFFFF;
+    width: 400px;
+    border-style: solid;
+    border-color: #bbaacc;
+    border-width: ;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: #9d70cd;
+    
+}
+
+.music-player{
+    border-color: #9d70cd;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0  4px 30px rgba(35, 35, 25, .1);
+}
+
+.song-title { 
+    margin-bottom: 0px;
+}
+
+.song-artist {
+    margin-top: 0px;
+}
+
+.music-artwork {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 10px;
+}
+
+.music-player-settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    border-style: solid;
+    border-color: #9d70cd;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 285px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 10px;
+}
+
+.music-player-settings > * {
+    cursor: pointer;
+}
+
+.music-player-settings > *:active {
+    transform: translateY(1.5px);
+}
+
+.back-button{
+    padding-right: 10px;
+    padding-left: 35px;
+}
+
+.forward-button{
+   padding-left: 10px;
+
+}
+
+.three-dot-button{
+        padding-left: 30px;
+}
